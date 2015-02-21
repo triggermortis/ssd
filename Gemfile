@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-rails '2.1.1'
+ruby '2.1.1'
 gem 'rails_12factor', group: :production
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
