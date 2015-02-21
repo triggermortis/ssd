@@ -25,18 +25,18 @@ development:
   adapter: postgresql
   encoding: unicode
   pool: 5
-  database: <%= ENV['WEBAPP_DEV_DATABASE'] %>
-  username: <%= ENV['WEBAPP_DEV_USERNAME'] %>
-  password: <%= ENV['WEBAPP_DEV_PASSWORD'] %>
-  host:     <%= ENV['WEBAPP_DEV_HOST'] %>
-  port:     <%= ENV['WEBAPP_DEV_PORT'] %>
+  database: ENV['WEBAPP_DEV_DATABASE']
+  username: ENV['WEBAPP_DEV_USERNAME']
+  password: ENV['WEBAPP_DEV_PASSWORD']
+  host:     ENV['WEBAPP_DEV_HOST']
+  port:     ENV['WEBAPP_DEV_PORT']
 
 production:
   adaptor: postgresql
   encoding: unicode
   pool: 5
-  database: <%= ENV['WEBAPP_PROD_DATABASE'] %>
-  username: <%= ENV['WEBAPP_PROD_USERNAME'] %>
-  password: <%= ENV['WEBAPP_PROD_PASSWORD'] %>
-  host:     <%= ENV['WEBAPP_PROD_HOST'] %>
-  port:     <%= ENV['WEBAPP_PROD_PORT'] %>
+  database: ENV['WEBAPP_PROD_DATABASE']
+  username: ENV['WEBAPP_PROD_USERNAME']
+  password: ENV['WEBAPP_PROD_PASSWORD']
+  host:     ENV['WEBAPP_PROD_HOST']
+  port:     ENV['WEBAPP_PROD_PORT']
