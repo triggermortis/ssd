@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem 'puma'
 gem 'rails_log_stdout', github: 'Heroku/rails_log_stdout'
 #ruby '2.0.0'
 gem 'rails_12factor', group: :production
